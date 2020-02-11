@@ -1,24 +1,34 @@
+import { Card, Grid, Typography } from "@material-ui/core"
 import React from "react"
-import logo from "../../assets/logo.svg"
 import "./styles.css"
+import { ContainerDuck } from "../ContainerDuck"
 
 export function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Grid
+      container
+      className="App"
+      direction="column"
+      justify="center"
+      alignItems="center"
+      style={{ marginTop: 24 }}
+    >
+      <Card
+        style={{
+          minWidth: 325,
+          padding: 75,
+          margin: 16,
+          boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.15)",
+          borderRadius: 8,
+          background:
+            "linear-gradient(90deg, rgba(213,80,211,1) 21%, rgba(0,255,224,1) 100%)",
+        }}
+      >
+        <ContainerDuck />
+      </Card>
+      <Grid item>
+        <Typography variant="h5">#WhoTheDuckIsIt?</Typography>
+      </Grid>
+    </Grid>
   )
 }
