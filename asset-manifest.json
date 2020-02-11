@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/baby_countdown/static/css/main.5ff5e5c4.chunk.css",
+    "main.js": "/baby_countdown/static/js/main.e84be060.chunk.js",
+    "main.js.map": "/baby_countdown/static/js/main.e84be060.chunk.js.map",
+    "runtime-main.js": "/baby_countdown/static/js/runtime-main.021d3432.js",
+    "runtime-main.js.map": "/baby_countdown/static/js/runtime-main.021d3432.js.map",
+    "static/js/2.b8be2a57.chunk.js": "/baby_countdown/static/js/2.b8be2a57.chunk.js",
+    "static/js/2.b8be2a57.chunk.js.map": "/baby_countdown/static/js/2.b8be2a57.chunk.js.map",
+    "index.html": "/baby_countdown/index.html",
+    "precache-manifest.15831af69f3c0a09e5188c0d59de97f5.js": "/baby_countdown/precache-manifest.15831af69f3c0a09e5188c0d59de97f5.js",
+    "service-worker.js": "/baby_countdown/service-worker.js",
+    "static/css/main.5ff5e5c4.chunk.css.map": "/baby_countdown/static/css/main.5ff5e5c4.chunk.css.map",
+    "static/js/2.b8be2a57.chunk.js.LICENSE.txt": "/baby_countdown/static/js/2.b8be2a57.chunk.js.LICENSE.txt",
+    "static/media/rubber-duck.svg": "/baby_countdown/static/media/rubber-duck.1f8e5c69.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.021d3432.js",
+    "static/js/2.b8be2a57.chunk.js",
+    "static/css/main.5ff5e5c4.chunk.css",
+    "static/js/main.e84be060.chunk.js"
+  ]
+}
