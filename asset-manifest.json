@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/baby_countdown/static/css/main.05a1dd99.chunk.css",
-    "main.js": "/baby_countdown/static/js/main.29159a91.chunk.js",
-    "main.js.map": "/baby_countdown/static/js/main.29159a91.chunk.js.map",
+    "main.js": "/baby_countdown/static/js/main.59767ea5.chunk.js",
+    "main.js.map": "/baby_countdown/static/js/main.59767ea5.chunk.js.map",
     "runtime-main.js": "/baby_countdown/static/js/runtime-main.021d3432.js",
     "runtime-main.js.map": "/baby_countdown/static/js/runtime-main.021d3432.js.map",
-    "static/js/2.9dbc782d.chunk.js": "/baby_countdown/static/js/2.9dbc782d.chunk.js",
-    "static/js/2.9dbc782d.chunk.js.map": "/baby_countdown/static/js/2.9dbc782d.chunk.js.map",
+    "static/js/2.e17fb22f.chunk.js": "/baby_countdown/static/js/2.e17fb22f.chunk.js",
+    "static/js/2.e17fb22f.chunk.js.map": "/baby_countdown/static/js/2.e17fb22f.chunk.js.map",
     "index.html": "/baby_countdown/index.html",
-    "precache-manifest.e42e99147995b30ca8ff78035f90aacc.js": "/baby_countdown/precache-manifest.e42e99147995b30ca8ff78035f90aacc.js",
+    "precache-manifest.6eb9bcd55c8a5655fdbfd983570f2058.js": "/baby_countdown/precache-manifest.6eb9bcd55c8a5655fdbfd983570f2058.js",
     "service-worker.js": "/baby_countdown/service-worker.js",
     "static/css/main.05a1dd99.chunk.css.map": "/baby_countdown/static/css/main.05a1dd99.chunk.css.map",
-    "static/js/2.9dbc782d.chunk.js.LICENSE.txt": "/baby_countdown/static/js/2.9dbc782d.chunk.js.LICENSE.txt",
+    "static/js/2.e17fb22f.chunk.js.LICENSE.txt": "/baby_countdown/static/js/2.e17fb22f.chunk.js.LICENSE.txt",
     "static/media/rubber-duck.svg": "/baby_countdown/static/media/rubber-duck.1f8e5c69.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.021d3432.js",
-    "static/js/2.9dbc782d.chunk.js",
+    "static/js/2.e17fb22f.chunk.js",
     "static/css/main.05a1dd99.chunk.css",
-    "static/js/main.29159a91.chunk.js"
+    "static/js/main.59767ea5.chunk.js"
   ]
 }
