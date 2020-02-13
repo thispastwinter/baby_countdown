@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2006e2f35deeea90b0939f27d4e757c3",
+    "revision": "dd7baded7027b1714ebff9b4f16bae6d",
     "url": "/baby_countdown/index.html"
   },
   {
-    "revision": "075d1e2137bbde126485",
+    "revision": "23380f2f443b3e2d45b8",
     "url": "/baby_countdown/static/css/main.c5ce6f38.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/baby_countdown/static/js/2.97ed90d3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "075d1e2137bbde126485",
-    "url": "/baby_countdown/static/js/main.3db31db5.chunk.js"
+    "revision": "23380f2f443b3e2d45b8",
+    "url": "/baby_countdown/static/js/main.dfde7931.chunk.js"
   },
   {
     "revision": "a810163bc26feb42acc6",
