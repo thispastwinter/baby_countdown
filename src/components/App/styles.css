@@ -1,10 +1,15 @@
+@font-face {
+  font-family: "Subway-Ticker";
+  src: url("../../assets/fonts/digital-7\ \(mono\).ttf");
+  }
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
-  height: 35vmin;
 }
 
 .App-header {

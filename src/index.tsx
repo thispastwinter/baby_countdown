@@ -1,8 +1,12 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import { App } from "./components/App"
+import "firebase/firestore"
+import Firebase from "./config"
 import "./index.css"
 import * as serviceWorker from "./serviceWorker"
+
+new Firebase()
 
 ReactDOM.render(<App />, document.getElementById("root"))
 

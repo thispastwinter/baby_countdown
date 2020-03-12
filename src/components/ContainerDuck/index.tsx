@@ -1,7 +1,6 @@
 import { Grid } from "@material-ui/core"
 import React from "react"
-import rubberduck from "../../assets/rubber-duck.svg"
-import { Clock } from "../Clock"
+import duck from "../../assets/duck.png"
 
 export const ContainerDuck = () => {
   return (
@@ -11,17 +10,12 @@ export const ContainerDuck = () => {
       alignItems="center"
       justify="space-between"
     >
-      <Grid item>
-        <img
-          style={{ padding: 24 }}
-          src={rubberduck}
-          className="App-logo"
-          alt="logo"
-        />
-      </Grid>
-      <Grid item>
-        <Clock />
-      </Grid>
+      <img
+        style={{ top: 180, width: 75, position: "absolute" }}
+        src={duck}
+        className="App-logo"
+        alt="logo"
+      />
     </Grid>
   )
 }

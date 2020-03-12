@@ -7,9 +7,14 @@ export interface CountDownTime {
   seconds?: number
 }
 
-export const useGetTimeValues = (): CountDownTime => {
-  const finalDate = new Date("March 14, 2020 16:00:00").getTime()
+interface ReturnType extends CountDownTime {
+  countdownFinished: boolean
+}
+
+export const useGetTimeValues = (): ReturnType => {
+  const finalDate = new Date("March 14, 2020 18:15:00").getTime()
   const [time, setTime] = useState<CountDownTime>()
+  const [countdownFinished, setCountdownFinished] = useState<boolean>(false)
   useEffect(() => {
     setInterval(() => {
       const now = new Date().getTime()
@@ -22,12 +27,17 @@ export const useGetTimeValues = (): CountDownTime => {
         minutes: Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60)),
         seconds: Math.floor((timeRemaining % (1000 * 60)) / 1000),
       })
-    }, 1000)
+      if (new Date().getTime() > finalDate) {
+        setCountdownFinished(true)
+      }
+    }, 10)
   }, [finalDate])
+
   return {
-    days: time && time.days,
-    hours: time && time.hours,
-    minutes: time && time.minutes,
-    seconds: time && time.seconds,
+    days: time?.days,
+    hours: time?.hours,
+    minutes: time?.minutes,
+    seconds: time?.seconds,
+    countdownFinished,
   }
 }

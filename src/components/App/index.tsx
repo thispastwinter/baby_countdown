@@ -1,34 +1,35 @@
-import { Card, Grid, Typography } from "@material-ui/core"
+import { Grid, Typography } from "@material-ui/core"
 import React from "react"
 import "./styles.css"
+import { CardVotePercentage } from "../CardVotePercentage"
 import { ContainerDuck } from "../ContainerDuck"
+import { Vote } from "../ContainerVote"
 
 export function App() {
   return (
-    <Grid
-      container
-      className="App"
-      direction="column"
-      justify="center"
-      alignItems="center"
-      style={{ marginTop: 24 }}
-    >
-      <Card
-        style={{
-          minWidth: 325,
-          padding: 75,
-          margin: 16,
-          boxShadow: "0px 2px 6px rgba(0, 0, 0, 0.15)",
-          borderRadius: 8,
-          background:
-            "linear-gradient(90deg, rgba(213,80,211,1) 21%, rgba(0,255,224,1) 100%)",
-        }}
+    <>
+      <Grid
+        container
+        className="App"
+        direction="column"
+        justify="center"
+        alignItems="center"
       >
-        <ContainerDuck />
-      </Card>
-      <Grid item>
-        <Typography variant="h5">#WhoTheDuckIsIt?</Typography>
+        <Grid item>
+          <Typography
+            style={{ paddingTop: 24, fontFamily: "Roboto" }}
+            variant="h6"
+          >
+            #WhoTheDuckIsIt
+          </Typography>
+        </Grid>
+        <CardVotePercentage>
+          <ContainerDuck />
+        </CardVotePercentage>
+        <Grid item>
+          <Vote />
+        </Grid>
       </Grid>
-    </Grid>
+    </>
   )
 }
