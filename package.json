@@ -62,7 +62,7 @@
     "new:util": "hygen util new",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "prepush": "npm run test:ci",
+    "prepush": "",
     "static": "serve -s build",
     "deps:graph": "depcruise --validate --output-type dot -- src | dot -T svg > dependency-graph.svg",
     "deps:report": "depcruise --validate --output-type err-html --output-to dependency-report.html -- src",
