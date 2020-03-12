@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/baby_countdown/static/css/main.c5ce6f38.chunk.css",
-    "main.js": "/baby_countdown/static/js/main.dfde7931.chunk.js",
-    "main.js.map": "/baby_countdown/static/js/main.dfde7931.chunk.js.map",
+    "main.js": "/baby_countdown/static/js/main.ffc2769c.chunk.js",
+    "main.js.map": "/baby_countdown/static/js/main.ffc2769c.chunk.js.map",
     "runtime-main.js": "/baby_countdown/static/js/runtime-main.021d3432.js",
     "runtime-main.js.map": "/baby_countdown/static/js/runtime-main.021d3432.js.map",
-    "static/js/2.97ed90d3.chunk.js": "/baby_countdown/static/js/2.97ed90d3.chunk.js",
-    "static/js/2.97ed90d3.chunk.js.map": "/baby_countdown/static/js/2.97ed90d3.chunk.js.map",
+    "static/js/2.2f577513.chunk.js": "/baby_countdown/static/js/2.2f577513.chunk.js",
+    "static/js/2.2f577513.chunk.js.map": "/baby_countdown/static/js/2.2f577513.chunk.js.map",
     "index.html": "/baby_countdown/index.html",
-    "precache-manifest.e52335224da1209d0e37b43f29171ba1.js": "/baby_countdown/precache-manifest.e52335224da1209d0e37b43f29171ba1.js",
+    "precache-manifest.18d12d05b49b51a356d6bfba5285f6bd.js": "/baby_countdown/precache-manifest.18d12d05b49b51a356d6bfba5285f6bd.js",
     "service-worker.js": "/baby_countdown/service-worker.js",
     "static/css/main.c5ce6f38.chunk.css.map": "/baby_countdown/static/css/main.c5ce6f38.chunk.css.map",
-    "static/js/2.97ed90d3.chunk.js.LICENSE.txt": "/baby_countdown/static/js/2.97ed90d3.chunk.js.LICENSE.txt",
+    "static/js/2.2f577513.chunk.js.LICENSE.txt": "/baby_countdown/static/js/2.2f577513.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/baby_countdown/static/media/digital-7 (mono).58045dab.ttf",
-    "static/media/duck-boy.png": "/baby_countdown/static/media/duck-boy.9d1cabc9.png",
-    "static/media/duck-girl.png": "/baby_countdown/static/media/duck-girl.3b57da37.png",
-    "static/media/duck.png": "/baby_countdown/static/media/duck.4402e49d.png"
+    "static/media/duck.png": "/baby_countdown/static/media/duck.4402e49d.png",
+    "static/media/duck1.png": "/baby_countdown/static/media/duck1.9d1cabc9.png",
+    "static/media/duck2.png": "/baby_countdown/static/media/duck2.3b57da37.png"
   },
   "entrypoints": [
     "static/js/runtime-main.021d3432.js",
-    "static/js/2.97ed90d3.chunk.js",
+    "static/js/2.2f577513.chunk.js",
     "static/css/main.c5ce6f38.chunk.css",
-    "static/js/main.dfde7931.chunk.js"
+    "static/js/main.ffc2769c.chunk.js"
   ]
 }
